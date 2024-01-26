@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <a href="/home.html">
+        <img src="Jovisual_Logo.png" width="100"/>
+    </a>
+    <title>Photo Feed-Through Your Eyes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h2>Photo Feed</h2>
+    <div id="photoFeedContainer">
+      
+    
+    </div>
+    <form id="addPhotoForm" method="POST" enctype="multipart/form-data">
+        <label for="photoInput">Choose a photo:</label>
+        <input type="file" id="photoInput" name="photo" accept="image/*">
+        <br>
+        <button type="submit" id="addPhoto">Add Photo</button>
+      </form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script> 
+    <script src="photoFeed.js"></script> 
+    
+
+  </body>
+</html>

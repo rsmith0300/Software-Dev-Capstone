@@ -1,0 +1,12 @@
+#photoFeedContainer img {
+    /* Set a specific width */
+    width: 400px;
+  
+    /* Set a specific height (optional, maintains aspect ratio if omitted) */
+    height: auto;
+  
+    /* Additional styling */
+    margin: 5px; /* Add spacing between images */
+    border: 1px solid #ddd; /* Add a border for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+  }

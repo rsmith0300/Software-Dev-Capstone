@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h1>Jovisual: Through Your Eyes</h1>
+    <a href="/home.html">
+      <img src="Jovisual_Logo.png" width="75"/>
+    </a>
+    <title>Through Your Eyes</title>
+  </head>
+  <body>
+    <h2>Register</h2>
+    <form id="registrationForm" action="/login">
+        <label for="Create Username"> Create Username:</label>
+        <input type="text" name = "Create Username" placeholder="create username"/>
+        <br>
+        <label for="Create Password"> Create Password:</label>
+        <input type="password" name = "Create Password" placeholder="create password"/>
+        <br>
+        <br>
+        <input id="submit" type="submit">
+    </form>
+
+    <h2>Already registered?</h2>
+    <a href="/login"><button id="loginfwd">Login</button></a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+    <script src="home.js"></script>
+
+  </body>
+</html>
